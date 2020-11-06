@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-image:url("../images/background.jpg");
+    height: 880px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.nav__logo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.search-form{
+    padding: 30px;
+    
+}
+.aa{
+    background-color: white;
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0 20px 20px 0px;
+}
+
+.menu1 {
+   
+    display: flex; 
+}
+.menu1 >li{
+   list-style: none;
+   font-size: 20px;
+   font-weight: 700;
+}
+.menu1 a{
+    text-decoration: none;
+    color:white;
+    margin-left: 20px;
+    text-align: center;
+}
+.tb{
+    margin-top: 20px;
+}
+.map{
+    width: 100%;
+}
+button{
+    background-color: #FF5A5F;
+    color:white;
+    width: 70px;
+    height: 45px;
+    font-size: 15px;
+    font-weight: 700; /*굵기*/
+    border-radius: 6px;
+    border: 0;
+    cursor: pointer;
+}
+.sub-title{
+    text-align: start;
+}
+.btn1{
+    display: flex;
+    justify-content:flex-end;
+    padding: 20px 0;
+}
+
+.search__input {
+    height: 45px;
+    width: 100%;
+    color: rgb(100, 98, 98);
+    font-size: 15px;
+    border: 1px solid rgb(230, 227, 227);
+}

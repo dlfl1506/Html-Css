@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <style>
+
+
+            *{
+                padding: 0px;
+                margin: 0px;
+                box-sizing: border-box;
+            }
+           header
+           {background-color : pink;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            color :white;
+            font-size: 40px;
+            font-weight: 900;
+           }
+           ul{
+               display: flex;
+               justify-content: space-around;
+               flex-wrap: wrap;
+               
+           }
+           li{
+               width: 200px;
+               list-style-type: none;
+               text-align: center;
+           }
+
+          
+           nav a{
+               display: inline-block;
+               padding: 20px 0;
+               text-decoration: none;
+               color:white;
+               font-size: 20px;
+               font-weight: 700;
+               
+               
+           }
+
+        
+           nav a:hover{
+               background-color: rgb(201, 131, 2);
+           }
+           nav{
+               background-color: orange;
+              
+           }
+
+           .submenu{
+               position: relative;
+           }
+           .dropdown{
+               position: absolute;  
+               display: none;
+            
+           }
+           .submenu > a:hover +.dropdown{
+            display: block;
+           }
+        
+        </style>
+
+    </head>
+    <body>
+        <header>
+            COS
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">css</a></li>
+                <li class="submenu"><a href="#">javaScripts</a>
+                <div class="dropdown">
+                    <div>Link1</div>
+                    <div>Link2</div>
+                    <div>Link3</div>
+                </div>
+                </li>
+               
+            </ul>
+        </nav>
+    </body>
+</html>
