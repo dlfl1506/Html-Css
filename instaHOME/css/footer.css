@@ -1,23 +1,21 @@
 
-footer{
-    
-    padding:50px 100px;
-    display: flex;
-    justify-content: space-between;
+.footer{
+    margin-top: -10px;
 }
 
 footer ul{
     list-style: none;
     display: flex;
+    justify-content: center;
 }
 footer li{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 footer ul li a{
     text-decoration: none;
     color:#00376B;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 600;
 }
 
@@ -25,5 +23,6 @@ footer ul li a{
     color:#8E8E8E;
     font-size: 14px;
     font-weight: 18px;
+    text-align: center;
 }
 

@@ -1,0 +1,21 @@
+.modal-dialog{
+    margin: 30 auto;
+   
+}
+.modal-content{
+    margin: 50% auto;
+    width: 300px;
+    height: 400px;
+    
+}
+.modal-body{
+    text-align: center;
+}
+
+.modal-body .color{
+    color:red;
+}
+
+.modal-body .cancle{
+    cursor: pointer;
+}

@@ -1,0 +1,161 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <style>
+        .red {
+            color: red;
+            cursor: pointer;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__box">
+            <div class="header__div1">
+                <a href="home.html"><img src="images/logo.png"></a>
+            </div>
+
+            <div class="header__div2">
+                <div class="header__div2__div2">
+                    <i class="material-icons">search</i>
+                </div>
+                <input class="textbox" type="text" placeholder="검색" />
+            </div>
+
+            <div class="icons">
+                <a href="home.html"><i class="material-icons">home</i></a>
+                <i class="material-icons">near_me</i>
+                <a href="explore.html"><i class="material-icons">explore</i></a>
+
+
+                <i class="material-icons">favorite_border</i>
+
+
+
+
+                <img style="cursor: pointer;" src="images/YD.jpg" data-toggle="dropdown" />
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="profile.html"><svg style="margin-left:-13px;" aria-label="프로필"
+                            class="_8-yf5 " fill="#262626" height="16" viewBox="0 0 32 32" width="16">
+                            <path
+                                d="M16 0C7.2 0 0 7.1 0 16c0 4.8 2.1 9.1 5.5 12l.3.3C8.5 30.6 12.1 32 16 32s7.5-1.4 10.2-3.7l.3-.3c3.4-3 5.5-7.2 5.5-12 0-8.9-7.2-16-16-16zm0 29c-2.8 0-5.3-.9-7.5-2.4.5-.9.9-1.3 1.4-1.8.7-.5 1.5-.8 2.4-.8h7.2c.9 0 1.7.3 2.4.8.5.4.9.8 1.4 1.8-2 1.5-4.5 2.4-7.3 2.4zm9.7-4.4c-.5-.9-1.1-1.5-1.9-2.1-1.2-.9-2.7-1.4-4.2-1.4h-7.2c-1.5 0-3 .5-4.2 1.4-.8.6-1.4 1.2-1.9 2.1C4.2 22.3 3 19.3 3 16 3 8.8 8.8 3 16 3s13 5.8 13 13c0 3.3-1.2 6.3-3.3 8.6zM16 5.7c-3.9 0-7 3.1-7 7s3.1 7 7 7 7-3.1 7-7-3.1-7-7-7zm0 11c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4z">
+                            </path>
+                        </svg> 프로필</a>
+                    <hr />
+                    <a class="dropdown-item" href="setting.html"><svg style="margin-left:-13px;" aria-label="설정"
+                            class="_8-yf5 " fill="#262626" height="16" viewBox="0 0 32 32" width="16">
+                            <path
+                                d="M31.2 13.4l-1.4-.7c-.1 0-.2-.1-.2-.2v-.2c-.3-1.1-.7-2.1-1.3-3.1v-.1l-.2-.1v-.3l.5-1.5c.2-.5 0-1.1-.4-1.5l-1.9-1.9c-.4-.4-1-.5-1.5-.4l-1.5.5H23l-.1-.1h-.1c-1-.5-2-1-3.1-1.3h-.2c-.1 0-.1-.1-.2-.2L18.6.9c-.2-.5-.7-.9-1.2-.9h-2.7c-.5 0-1 .3-1.3.8l-.7 1.4c0 .1-.1.2-.2.2h-.2c-1.1.3-2.1.7-3.1 1.3h-.1l-.1.2h-.3l-1.5-.5c-.5-.2-1.1 0-1.5.4L3.8 5.7c-.4.4-.5 1-.4 1.5l.5 1.5v.5c-.5 1-1 2-1.3 3.1v.2c0 .1-.1.1-.2.2l-1.4.7c-.6.2-1 .7-1 1.2v2.7c0 .5.3 1 .8 1.3l1.4.7c.1 0 .2.1.2.2v.2c.3 1.1.7 2.1 1.3 3.1v.1l.2.1v.3l-.5 1.5c-.2.5 0 1.1.4 1.5l1.9 1.9c.3.3.6.4 1 .4.2 0 .3 0 .5-.1l1.5-.5H9l.1.1h.1c1 .5 2 1 3.1 1.3h.2c.1 0 .1.1.2.2l.7 1.4c.2.5.7.8 1.3.8h2.7c.5 0 1-.3 1.3-.8l.7-1.4c0-.1.1-.2.2-.2h.2c1.1-.3 2.1-.7 3.1-1.3h.1l.1-.1h.3l1.5.5c.1 0 .3.1.5.1.4 0 .7-.1 1-.4l1.9-1.9c.4-.4.5-1 .4-1.5l-.5-1.5V23l.1-.1v-.1c.5-1 1-2 1.3-3.1v-.2c0-.1.1-.1.2-.2l1.4-.7c.5-.2.8-.7.8-1.3v-2.7c0-.5-.4-1-.8-1.2zM16 27.1c-6.1 0-11.1-5-11.1-11.1S9.9 4.9 16 4.9s11.1 5 11.1 11.1-5 11.1-11.1 11.1z">
+                            </path>
+                        </svg> 설정</a>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="sectionBox__setting">
+            <div class="sectionBox__setting__box1">
+                <div><b>프로필 편집</b></div>
+                <div>비밀번호 변경</div>
+                <div>앱 및 웹사이트</div>
+                <div>이메일 및 SMS</div>
+                <div>푸시 알림</div>
+                <div>연락처 관리</div>
+                <div>공개 범위 및 보안</div>
+                <div>로그인 활동</div>
+                <div>instagram에서 보낸 이메일</div>
+            </div>
+            <div class="sectionBox__setting__box2">
+                <div class="sectionBox__setting__box2__1">
+                    <div>
+                        <img src="images/YD.jpg" />
+
+                    </div>
+                    <div><b>이름</b></div>
+                    <div><b>사용자 이름</b></div>
+                    <div><b>웹사이트</b></div>
+                    <div><b>소개</b></div>
+                    <div><b>이메일</b></div>
+                    <div><b>전화번호</b></div>
+                    <div><b>성별</b></div>
+                    <div><b>비슷한계정 추천</b></div>
+
+                </div>
+                <div class="sectionBox__setting__box2__2">
+                    <div>
+                        <div><b>yang.dae</b><br><span style="color:dodgerblue">프로필 사진바꾸기</span></div>
+
+                    </div>
+                    <div>
+                        <input type="text" value="양대현" />
+                    </div>
+                    <div> <input type="text" value="yang.dae" /> </div>
+                    <div> <input type="text" placeholder="웹사이트" /></div>
+                    <div> <textarea class="ta"></textarea></div>
+                    <div><input type="text" value="hoggaz@naver.com" /></div>
+                    <div><input type="text" value="+82 10-1234-1234" /></div>
+                    <div><input type="text" placeholder="성별" /></div>
+                    <div><input type="checkbox" checked /></div>
+
+                    <div class="submit__box">
+                        <div class="submit2">
+                            <span class="btn btn-primary">제출</span>
+                        </div>
+                        <div class="human">계정을 일시적으로 비활성화</div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <footer>
+            <nav class="footer__nav">
+                <ul>
+                    <li><a href="#">소개</a></li>
+                    <li><a href="#">도움말</a></li>
+                    <li><a href="#">홍보센터</a></li>
+                    <li><a href="#">API</a></li>
+                    <li><a href="#">채용정보</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">약관</a></li>
+                    <li><a href="#">위치</a></li>
+                    <li><a href="#">인기 계정</a></li>
+                    <li><a href="#">해시태그</a></li>
+                    <li><a href="#">언어</a></li>
+                </ul>
+            </nav>
+
+            <div class="haha">
+                <span>
+                    <select>
+                        <option>한국어</option>
+                        <option>English</option>
+                        <option>日本漁</option>
+                    </select>
+                </span>
+                ㉿2020 INSTAGRAM FROM FACEBOOK</div>
+        </footer>
+    </main>
+
+
+</body>
+
+</html>

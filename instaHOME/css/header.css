@@ -1,0 +1,63 @@
+
+.header__div1 a img{
+    width: 103px;
+    height: 29px;
+}
+
+.header{
+    border:1px solid rgb(194, 193, 193);
+    
+   
+}
+
+.header__box{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.header__div1{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.header__div2{
+    display: flex;
+    text-align: center;
+
+}
+
+
+
+
+.icons .material-icons{
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.icons img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: -15px;
+
+}
+
+.header__div2__div2 .material-icons{
+    position: absolute;
+    font-size: 28px;
+
+}
+.textbox{
+    
+    text-align: center;
+    width: 250px;
+    
+}
+
+.line{
+    opacity: 0.0.5em;
+}
+

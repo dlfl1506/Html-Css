@@ -1,0 +1,23 @@
+
+.sectionBox{
+    border :1px solid rgb(194, 193, 193);
+    width: 1000px;
+    height: 280%;
+    margin: 10 auto;
+   
+}
+
+.sectionBox div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10px;
+    margin:0 10px;
+    height: 100%;
+   
+}
+.sectionBox div img{
+   width: 100%;
+
+}
+
+
